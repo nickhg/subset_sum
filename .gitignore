@@ -17,3 +17,10 @@ ENV/
 *.egg-info/
 dist/
 build/
+
+# Generated PDFs - don't track
+*.pdf
+
+# Exception: release versions
+!releases/*.pdf
+EOF
