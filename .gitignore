@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# SageMath compiled files
+*.sage.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
