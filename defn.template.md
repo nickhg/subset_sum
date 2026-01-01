@@ -5,6 +5,14 @@
 
 <!-- use #, ##, ### for headings -->
 
+---
+#title: "Subset Sum Analysis"
+#author: "Nick Howgrave-Graham"
+#date: "January 2026"
+#bibliography: /home/nickhg/git/subset_sum/references.bib
+#csl: /home/nickhg/git/subset_sum/ieee.csl
+---
+
 # The Subset Sum Problem
 
 The subset sum problem is the following: you are given a target number, and a modulus like this:
@@ -42,7 +50,11 @@ The subset sum problem has a rich history. Some observations are:
 * When NUM_SUMMED = LIST_SIZE/2 the number of possible subsets is maximized
 * If NUM_SUMMED > LIST_SIZE/2, one would consider the items that are _not_ in the sum, since the sum of all the numbers is public.
 * If NUM_SUMMED is not provided, it is not too hard to enumerate over every possible NUM_SUMMED <= LIST_SIZE
-* The subset sum problem was shown to be NP complete in ...
+* The subset sum problem was shown to be NP-complete by Karp [@karp1972reducibility], 
+building on Cook's foundational work on NP-completeness [@cook1971complexity]. See also 
+[@garey1979computers].
+
+## References
 
 <!-- markdown can also display matrices within round parentheses, square brackets, or straight lines -->
 <!-- \begin{pmatrix} a & b \\ c & d \end{pamtrix}, or bmatrix, vmatrix -->
