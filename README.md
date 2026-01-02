@@ -2,9 +2,11 @@
 
 Research exploring practical implementations of subset sum algorithms, including meet-in-the-middle techniques and the representation method from [Howgrave-Graham & Joux, EUROCRYPT 2010](http://eprint.iacr.org/2010/189).
 
-## Paper
+## PDFs
 
-📄 [View Analysis (PDF)](https://github.com/nickhg/subset_sum/blob/main/releases/subset_sum.pdf)
+📄 [The Subset Sum Problem (PDF)](https://github.com/nickhg/subset_sum/blob/main/releases/subset_sum.pdf)
+📄 [Brute Force (PDF)](https://github.com/nickhg/subset_sum/blob/main/releases/brute_force.pdf)
+📄 [Meet-in-the-middle (PDF)](https://github.com/nickhg/subset_sum/blob/main/releases/mitm.pdf)
 
 ## Status
 
